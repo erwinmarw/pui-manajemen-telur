@@ -1,0 +1,46 @@
+name: toko_telur
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  firebase_core: ^4.9.0
+  firebase_database: ^12.4.1
+  fl_chart: ^1.2.0
+  pdf: ^3.12.0
+  excel: ^4.0.6
+  universal_html: ^2.3.0
+  path_provider: ^2.1.5
+  image_picker: ^1.2.2
+  firebase_storage: ^13.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Daftarkan folder assets untuk gambar/icon/logo nanti
+  assets:
+    - assets/images/
+
+  # Daftarkan custom font Inter
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter_18pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_18pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
